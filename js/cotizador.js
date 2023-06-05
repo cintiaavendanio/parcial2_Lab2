@@ -34,9 +34,10 @@ function calculatePrice(event) {
       resultado.className = "error";
       resultado.style.display = "block";
     } else {
-      descuento = (Number(precioDeLista) * porcentajeDescuento) / 100;
-      precioFinal = (precioDeLista - descuento) * cantidad;
+      precioListaCantidad = precioDeLista * cantidad;
       let precioDeListaFinal = precioDeLista * cantidad;
+      descuento = (Number(precioDeListaFinal) * porcentajeDescuento) / 100;
+      precioFinal = precioDeListaFinal - descuento;
 
       if (descuento == 0) {
         resultado.innerText = `Precio $ ${precioFinal.toFixed(2)} `;
