@@ -1,0 +1,154 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@100;200&display=swap");
+* {
+  font-family: "Raleway", sans-serif;
+}
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 50%;
+  padding: 60px 0px;
+  flex-direction: column;
+}
+.container p::first-letter {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+/* MENU: NAVBAR/HEADER */
+header {
+  background-color: #34495e;
+  position: fixed;
+  width: 100%;
+}
+nav ul {
+  display: flex;
+  justify-content: center;
+  margin: 0px;
+  padding: 5px;
+  list-style-type: none;
+}
+
+nav ul li {
+  justify-content: center;
+  flex-grow: 0;
+  flex-shrink: 1;
+  flex-basis: 25%;
+}
+
+nav ul li a {
+  color: #b8b4b4;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-weight: 100;
+  width: 100%;
+  display: block;
+  padding: 10px 8px;
+  text-align: center;
+}
+nav ul li a:hover {
+  background-color: rgba(131, 145, 146, 0.3);
+  cursor: pointer;
+}
+/* SECTION MAIN IMAGE */
+
+#section-main-image {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 90vh;
+  background-image: url("https://images.ctfassets.net/hrltx12pl8hq/4ACnMj4WVSOZRZt0jHu9h5/1506f652bcd70f4dc3e88219fefea858/shutterstock_739595833-min.jpg?fit=fill&w=800&h=300");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-attachment: fixed;
+}
+
+#section-main-image h1 {
+  color: rgba(255, 255, 255, 0.5);
+  margin: 0;
+  font-size: 120px;
+  font-weight: 100;
+}
+#section-main-image h2 {
+  color: white;
+  text-shadow: 2px 2px 5px #000;
+  margin: 0;
+}
+
+.container p {
+  color: #666;
+  text-align: justify;
+}
+
+/* SECTION COFFEE */
+
+#section-tecnologia {
+  background-color: #eeeeee;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 40px;
+}
+#section-tecnologia h2 {
+  margin: 40px 0px 20px;
+}
+.product-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.product {
+  padding: 0 15px;
+}
+
+.product img {
+  width: 200px;
+}
+.product h3 {
+  color: #21618c;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  font-weight: bolder;
+}
+
+/* FOOTER CONTACT */
+
+#footer-contact {
+  background-color: #566573;
+  color: #eeeeee;
+  display: flex;
+  justify-content: center;
+}
+
+#footer-contact .contact-data {
+  display: flex;
+  justify-content: space-between;
+}
+
+.contact-form form {
+  margin-left: 50px;
+  text-align: right;
+}
+
+.contact-form form .form-control {
+  padding: 10px 0;
+}
+
+.contact-form form .form-control label {
+  margin-right: 15px;
+}
+.contact-form form .form-control input {
+  border-radius: 3px;
+  color: #34495e;
+  border: 0.3px;
+}
+
+.contact-form form button {
+  margin-top: 15px;
+  color: #212f3c;
+  padding: 2px 30px;
+}
