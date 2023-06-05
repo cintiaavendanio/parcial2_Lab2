@@ -87,9 +87,9 @@ const productos = {
     descripcion:
       "Es un auricular profesional para aficionados a los juegos. Las luces LED hacen que se vea genial por la noche y agrega otro nivel de entretenimiento al jugar videojuegos. Los cables son compatibles con casi todos los dispositivos que puedas imaginar. Cojín ligero y suave, te traerá una experiencia agradable.Las almohadillas para los oídos están hechas de cuero de PU con un tamaño grande que proporciona un buen rendimiento de reducción de ruido. El diseño liviano es más cómodo para usar durante mucho tiempo.Con un conector de 3,5 mm, es adecuado para PC, computadora portátil. Y con un cable adaptador adicional en el paquete, también se puede aplicar en PS4, Xbox One, PSP, teléfono, iPad, tableta, etc. Este auricular NO es un auricular USB, la interfaz USB solo se usa para la fuente de alimentación para Luz LED.",
     caracteristicas:
-      "</li><li>Micrófono de alta definición</li><li>Sonido estéreo envolvente de 360 grados</li><li>Micrófono retráctil de 130°</li><li>Diadema cómoda</li><li>Contrabajo</li><li>Control del volumen</li><li>Luz Led</li><li>Diseño espléndido",
+      "<ul><li>Micrófono de alta definición</li><li>Sonido estéreo envolvente de 360 grados</li><li>Micrófono retráctil de 130°</li><li>Diadema cómoda</li><li>Contrabajo</li><li>Control del volumen</li><li>Luz Led</li><li>Diseño espléndido</li></ul>",
     especificaciones:
-      "</li><li>Diámetro del altavoz: 40 mm</li><li>Impedancia: 32 ohmios</li><li>Sensibilidad: 102dB +/-3dB</li><li>Respuesta de frecuencia: 20Hz-20KHZ</li><li>Dimensión del micrófono: 6,0*5,0mm</li><li>Directividad del micrófono: Omnidireccional</li><li>Enchufe: enchufes de 3,5 mm para micrófono y auriculares</li><li>Longitud del cable: aprox. 2,2 metros</li><li>Voltaje de funcionamiento del LED: DC5V 25%</li><li>Interfaz de trabajo: USB + estéreo de 3,5 mm</li><li>Unidad de controlador de 40 mm",
+      "<ul><li>Diámetro del altavoz: 40 mm</li><li>Impedancia: 32 ohmios</li><li>Sensibilidad: 102dB +/-3dB</li><li>Respuesta de frecuencia: 20Hz-20KHZ</li><li>Dimensión del micrófono: 6,0*5,0mm</li><li>Directividad del micrófono: Omnidireccional</li><li>Enchufe: enchufes de 3,5 mm para micrófono y auriculares</li><li>Longitud del cable: aprox. 2,2 metros</li><li>Voltaje de funcionamiento del LED: DC5V 25%</li><li>Interfaz de trabajo: USB + estéreo de 3,5 mm</li><li>Unidad de controlador de 40 mm</li></ul>",
   },
 
   ROJO: {
@@ -106,9 +106,9 @@ const productos = {
     imagen: "img/HEADSET_NARANJA.jpg",
     descripcion: "",
     caracteristicas:
-      "<ul></li>Micrófono de alta definición</li><li>Sonido estéreo envolvente de 360 grados</li><li>Micrófono retráctil de 130°</li><li>Diadema cómoda</li><li>Contrabajo</li><li>Control del volumen</li><li>Luz Led</li><li>Diseño espléndido</li></ul>",
+      "<ul><li>Micrófono de alta definición</li><li>Sonido estéreo envolvente de 360 grados</li><li>Micrófono retráctil de 130°</li><li>Diadema cómoda</li><li>Contrabajo</li><li>Control del volumen</li><li>Luz Led</li><li>Diseño espléndido</li></ul>",
     especificaciones:
-      "<ul></li>Diámetro del altavoz: 40 mm</li><li>Impedancia: 32 ohmios</li><li>Sensibilidad: 102dB +/-3dB</li><li>Respuesta de frecuencia: 20Hz-20KHZ</li><li>Dimensión del micrófono: 6,0*5,0mm</li><li>Directividad del micrófono: Omnidireccional</li><li>Enchufe: enchufes de 3,5 mm para micrófono y auriculares</li><li>Longitud del cable: aprox. 2,2 metros</li><li>Voltaje de funcionamiento del LED: DC5V 25%</li><li>Interfaz de trabajo: USB + estéreo de 3,5 mm</li><li>Unidad de controlador de 40 mm</li></ul>",
+      "<ul><li>Diámetro del altavoz: 40 mm</li><li>Impedancia: 32 ohmios</li><li>Sensibilidad: 102dB +/-3dB</li><li>Respuesta de frecuencia: 20Hz-20KHZ</li><li>Dimensión del micrófono: 6,0*5,0mm</li><li>Directividad del micrófono: Omnidireccional</li><li>Enchufe: enchufes de 3,5 mm para micrófono y auriculares</li><li>Longitud del cable: aprox. 2,2 metros</li><li>Voltaje de funcionamiento del LED: DC5V 25%</li><li>Interfaz de trabajo: USB + estéreo de 3,5 mm</li><li>Unidad de controlador de 40 mm</li></ul>",
   },
   VERDE: {
     titulo: "Auricular Gamer Constrictor AUC-3050RG",
